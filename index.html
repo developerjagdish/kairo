@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kairo™ — Operations that run themselves.</title>
+  <meta name="description" content="Kairo deploys autonomous agents that handle billing, scheduling, support, and reporting — so lean teams ship more without hiring more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__logo">
+        <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+        Kairo<span>™</span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#home">Start</a>
+        <a href="#about">Why Kairo</a>
+        <a href="#solutions">Platform</a>
+        <a href="#cases">Results</a>
+        <a href="#faq">Questions</a>
+      </nav>
+      <div class="nav__actions">
+        <a href="#waitlist" class="btn btn--light">Request access
+          <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+        </a>
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__flare" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__title">
+            <span>Your back office,</span>
+            <span class="hero__title-accent">on autopilot.</span>
+          </h1>
+          <p class="hero__sub">
+            Deploy autonomous agents that handle billing,<br />
+            scheduling, support, and reporting — so your<br />
+            lean team ships more without hiring more.
+          </p>
+          <div class="hero__cta">
+            <a href="#waitlist" class="btn btn--light btn--lg">Request access
+              <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+            </a>
+            <a href="#solutions" class="btn btn--ghost btn--lg">Watch the demo
+              <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- vertically scrolling feature tags -->
+        <div class="hero__ticker" aria-hidden="true">
+          <ul class="hero__track">
+            <li>Billing agents</li>
+            <li>Live scheduling</li>
+            <li>Inbox triage</li>
+            <li>Revenue reports</li>
+            <li>Billing agents</li>
+            <li>Live scheduling</li>
+            <li>Inbox triage</li>
+            <li>Revenue reports</li>
+          </ul>
+        </div>
+
+        <!-- floating thumbnail -->
+        <div class="hero__thumb" aria-hidden="true">
+          <span class="play">▶</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+      <div class="about__grid" aria-hidden="true"></div>
+      <div class="container about__inner">
+        <div class="about__eyebrow">
+          <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>WHY&nbsp;&nbsp;KAIRO</span>
+        </div>
+        <div class="about__body">
+          <h2 class="about__title">
+            Kairo turns scattered tools and manual handoffs into one self-running operation that
+            watches, reasons, and acts on its own — clearing the busywork your team never signed
+            up for.
+          </h2>
+          <p class="about__lead">
+            Every company bleeds hours to copy-paste tasks and endless status checks. Kairo absorbs
+            that routine work, makes the obvious calls instantly, and escalates only what genuinely
+            needs a human touch.
+          </p>
+
+          <!-- agent activity demo card -->
+          <div class="demo">
+            <div class="demo__status">Working</div>
+            <div class="demo__chat">
+              <p class="demo__line"><span class="type">Reconciled 38 invoices and flagged two</span><span class="caret"></span></p>
+              <div class="demo__bar">
+                <button class="demo__btn" aria-label="Add">+</button>
+                <button class="demo__btn demo__btn--send" aria-label="Send">→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats-sec">
+      <div class="container">
+        <div class="stats">
+          <div class="stat">
+            <span class="stat__num" data-target="340" data-suffix="+">340+</span>
+            <span class="stat__label">Agents in production</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="90" data-suffix="+">90+</span>
+            <span class="stat__label">Teams onboarded</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="8" data-suffix="M+">8M+</span>
+            <span class="stat__label">Actions taken</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="95" data-suffix="%">95%</span>
+            <span class="stat__label">Less busywork</span>
+          </div>
+        </div>
+        <div class="stats__note">
+          <p>Kairo replaces brittle scripts and manual checklists with a single layer of agents that keep your operations moving every hour of every day.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PLATFORM (light) ===== -->
+    <section class="sec sec--light solutions" id="solutions">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <div class="container sec__intro">
+        <div class="eyebrow"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg><span>PLATFORM</span></div>
+        <div class="sec__intro-body">
+          <h2 class="sec__title">
+            From first trigger to final action, Kairo runs the whole workflow end to end — no
+            dashboards to babysit, no steps left half-done, no Monday-morning surprises.
+          </h2>
+          <p class="sec__lead">
+            Point Kairo at a process, connect your tools, and it takes ownership: routing the work,
+            making the obvious decisions, and handing you only the judgment calls that deserve your
+            attention.
+          </p>
+          <a href="#waitlist" class="btn btn--dark">Request access
+            <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- marquee -->
+      <div class="marquee marquee--dark" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Platform</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Platform</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Platform</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Platform</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+        </div>
+      </div>
+
+      <!-- accordion + graphic -->
+      <div class="container solutions__main">
+        <div class="solutions__art" aria-hidden="true">
+          <svg viewBox="0 0 320 320" class="orbit">
+            <g fill="none" stroke="#111" stroke-width="1">
+              <ellipse cx="160" cy="160" rx="70" ry="110"/>
+              <ellipse cx="160" cy="160" rx="70" ry="110" transform="rotate(18 160 160)"/>
+              <ellipse cx="160" cy="160" rx="70" ry="110" transform="rotate(36 160 160)"/>
+              <ellipse cx="160" cy="160" rx="70" ry="110" transform="rotate(54 160 160)"/>
+              <ellipse cx="160" cy="160" rx="70" ry="110" transform="rotate(72 160 160)"/>
+              <ellipse cx="160" cy="160" rx="70" ry="110" transform="rotate(90 160 160)"/>
+              <line x1="160" y1="40" x2="160" y2="280"/>
+            </g>
+          </svg>
+        </div>
+        <div class="acc" id="solutionsAcc">
+          <div class="acc__head"><a href="#capabilities" class="btn btn--dark">See the full platform
+            <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          </a></div>
+          <div class="acc__item">
+            <button class="acc__q">Process Mapping &amp; Rollout<span class="acc__icon"></span></button>
+            <div class="acc__a"><p>We audit where time leaks today and stand up your first live agent in days, not quarters.</p></div>
+          </div>
+          <div class="acc__item active">
+            <button class="acc__q">Self-Running Workflows<span class="acc__icon"></span></button>
+            <div class="acc__a"><p>Turn manual checklists into agents that fetch data, take action, and coordinate every step without supervision.</p></div>
+          </div>
+          <div class="acc__item">
+            <button class="acc__q">Always-On Support Agents<span class="acc__icon"></span></button>
+            <div class="acc__a"><p>Resolve tickets, answer customers, and update records around the clock in your own brand voice.</p></div>
+          </div>
+          <div class="acc__item">
+            <button class="acc__q">Tool Sync &amp; Cleanup<span class="acc__icon"></span></button>
+            <div class="acc__a"><p>Unify your stack so every system stays accurate, current, and talking to the rest.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- quote -->
+      <div class="container quote-block">
+        <div class="quote-block__text">
+          <blockquote>"Kairo quietly took over the work nobody wanted to own. Three weeks in, our ops queue basically emptied itself."</blockquote>
+          <div class="quote-block__author">
+            <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+            <div><strong>Marcus Delaney</strong><span>VP of Operations, Northwind Labs</span></div>
+          </div>
+        </div>
+        <div class="quote-block__photo">
+          <img src="https://picsum.photos/id/1005/600/760?grayscale" alt="Marcus Delaney" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CAPABILITIES (dark) ===== -->
+    <section class="sec sec--dark caps" id="capabilities">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <div class="container sec__intro">
+        <div class="eyebrow"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg><span>CAPABILITIES</span></div>
+        <div class="sec__intro-body">
+          <h2 class="sec__title">
+            From a single trigger to full process ownership, Kairo hands teams the tools to offload
+            routine work, sharpen everyday decisions, and win back the hours that matter most.
+          </h2>
+        </div>
+      </div>
+      <div class="container caps__grid">
+        <article class="cap">
+          <svg class="cap__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 30l10-6 8 5 14-9"/><path d="M8 30v6h32v-6"/><circle cx="18" cy="24" r="2.5"/><circle cx="26" cy="29" r="2.5"/></svg>
+          <h3>Visual Agent Studio</h3>
+          <p>Build and ship autonomous agents on a drag-and-drop canvas — zero engineering required.</p>
+        </article>
+        <article class="cap">
+          <svg class="cap__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M10 30l14-8 14 8-14 8z"/><path d="M16 21v-5M20 19v-7M24 18v-9"/><circle cx="16" cy="15" r="1.5"/><circle cx="20" cy="11" r="1.5"/><circle cx="24" cy="8" r="1.5"/></svg>
+          <h3>Specialist Agents</h3>
+          <p>Spin up purpose-built agents for billing, support, scheduling, and back-office tasks.</p>
+        </article>
+        <article class="cap">
+          <svg class="cap__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 32l16-8 16 8-16 8z"/><circle cx="18" cy="16" r="3"/><circle cx="24" cy="13" r="3.5"/><circle cx="30" cy="16" r="3"/><path d="M14 24c0-3 3-5 4-5M30 24c0-3-3-5-4-5"/></svg>
+          <h3>Shared Control</h3>
+          <p>Set approvals, roles, and guardrails so your whole team stays aligned and in command.</p>
+        </article>
+        <article class="cap">
+          <svg class="cap__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M10 28l14-8 14 8-14 8z"/><path d="M10 28v6l14 8 14-8v-6"/><path d="M24 12v8"/></svg>
+          <h3>Oversight &amp; Audit</h3>
+          <p>Full activity trails, compliance controls, and reporting built in from the very first day.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== BUILT FOR SCALE (dark) ===== -->
+    <section class="sec sec--dark enterprise">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <div class="container enterprise__inner">
+        <div class="enterprise__text">
+          <div class="eyebrow"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg><span>BUILT FOR SCALE</span></div>
+          <h2 class="sec__title">Engineered to meet the security, uptime, and oversight standards that serious teams require.</h2>
+          <p class="enterprise__list">SOC 2 Audited • Granular Roles • Activity Trails • End-to-End Encryption • Self-Hosted Options</p>
+        </div>
+        <div class="enterprise__badges" aria-hidden="true">
+          <div class="badge-coin">
+            <span class="badge-coin__top">ISO</span>
+            <span class="badge-coin__big">27001</span>
+            <span class="badge-coin__sub">iso.org/27001</span>
+          </div>
+          <div class="badge-shield">
+            <span>GDPR</span>
+            <span>Ready</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESULTS (dark) ===== -->
+    <section class="sec sec--dark cases" id="cases">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <div class="marquee marquee--light" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Results</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Results</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Results</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Results</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+        </div>
+      </div>
+      <div class="container cases__grid">
+        <article class="case">
+          <div class="case__photo"><img src="https://picsum.photos/id/1018/700/520?grayscale" alt="" loading="lazy" /></div>
+          <div class="case__body">
+            <svg class="spark spark--box" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+            <h3>Cut Support Resolution Time by 63% With Always-On Agents</h3>
+            <p class="case__sub">Customer Operations Overhaul for a High-Growth Fintech</p>
+            <hr />
+            <div class="case__metrics">
+              <div><span class="case__num">63%</span><span class="case__label">Faster Ticket Resolution</span></div>
+              <div><span class="case__num">3x</span><span class="case__label">More Tickets Handled</span></div>
+            </div>
+          </div>
+          <a href="#" class="case__arrow" aria-label="Read the result">→</a>
+        </article>
+        <article class="case">
+          <div class="case__photo"><img src="https://picsum.photos/id/1062/700/520?grayscale" alt="" loading="lazy" /></div>
+          <div class="case__body">
+            <svg class="spark spark--box" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+            <h3>Closed the Books Five Days Early by Automating Reconciliation</h3>
+            <p class="case__sub">Finance Automation for a Multi-Entity Retailer</p>
+            <hr />
+            <div class="case__metrics">
+              <div><span class="case__num">5 days</span><span class="case__label">Earlier Monthly Close</span></div>
+              <div><span class="case__num">80%</span><span class="case__label">Fewer Manual Entries</span></div>
+            </div>
+          </div>
+          <a href="#" class="case__arrow" aria-label="Read the result">→</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== VOICES (light) ===== -->
+    <section class="sec sec--light testi">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <div class="marquee marquee--dark" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Voices</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Voices</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Voices</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Voices</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+        </div>
+      </div>
+      <div class="container sec__intro">
+        <div class="eyebrow"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg><span>VOICES</span></div>
+        <div class="sec__intro-body">
+          <h2 class="sec__title sec__title--sm">From scrappy startups to established enterprises, teams lean on Kairo to clear busywork, trim costs, and grow without growing headcount.</h2>
+          <a href="#waitlist" class="btn btn--dark">Request access
+            <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="container testi__grid">
+        <figure class="testi__card">
+          <blockquote>"Our team reclaimed a full day every week once Kairo took the repetitive work off our plates."</blockquote>
+          <figcaption><img src="https://picsum.photos/id/1011/80/80?grayscale" alt="" loading="lazy" /><span><strong>Priya Raman</strong>Head of Operations</span></figcaption>
+        </figure>
+        <figure class="testi__card">
+          <blockquote>"It stitched five disconnected tools into one process that simply runs itself."</blockquote>
+          <figcaption><img src="https://picsum.photos/id/1012/80/80?grayscale" alt="" loading="lazy" /><span><strong>Jonah Feld</strong>Director of Support</span></figcaption>
+        </figure>
+        <figure class="testi__card">
+          <blockquote>"We doubled our customer base without adding a single new hire."</blockquote>
+          <figcaption><img src="https://picsum.photos/id/1027/80/80?grayscale" alt="" loading="lazy" /><span><strong>Lena Brandt</strong>Chief Operating Officer</span></figcaption>
+        </figure>
+        <figure class="testi__card">
+          <blockquote>"The manual reporting that used to eat our Mondays is simply gone now."</blockquote>
+          <figcaption><img src="https://picsum.photos/id/1025/80/80?grayscale" alt="" loading="lazy" /><span><strong>Theo Okafor</strong>Founder &amp; CEO</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== FIELD NOTES (light) ===== -->
+    <section class="sec sec--light insights">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <div class="container sec__intro">
+        <div class="eyebrow"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg><span>FIELD NOTES</span></div>
+        <div class="sec__intro-body">
+          <h2 class="sec__title sec__title--sm">Practical playbooks, rollout guides, and hard-won lessons on putting autonomous agents to work.</h2>
+        </div>
+      </div>
+      <div class="container insights__grid">
+        <a href="#" class="insight">
+          <div class="insight__img"><img src="https://picsum.photos/id/1074/500/500" alt="" loading="lazy" /></div>
+          <div class="insight__foot"><h3>What Manual Operations Really Cost a Growing Team...</h3><span class="insight__btn"><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg></span></div>
+        </a>
+        <a href="#" class="insight">
+          <div class="insight__img"><img src="https://picsum.photos/id/1051/500/500" alt="" loading="lazy" /></div>
+          <div class="insight__foot"><h3>Why Automation Wins on Speed, Not Just Savings...</h3><span class="insight__btn"><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg></span></div>
+        </a>
+        <a href="#" class="insight">
+          <div class="insight__img"><img src="https://picsum.photos/id/1067/500/500" alt="" loading="lazy" /></div>
+          <div class="insight__foot"><h3>Autonomous Agents Are Quietly Replacing the Status Meeting...</h3><span class="insight__btn"><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg></span></div>
+        </a>
+        <a href="#" class="insight">
+          <div class="insight__img"><img src="https://picsum.photos/id/1080/500/500" alt="" loading="lazy" /></div>
+          <div class="insight__foot"><h3>A Rollout Plan for Agents That Actually Sticks...</h3><span class="insight__btn"><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg></span></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== QUESTIONS (light) ===== -->
+    <section class="sec sec--light faq" id="faq">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <div class="marquee marquee--dark" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Questions</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Questions</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Questions</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Questions</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+        </div>
+      </div>
+      <div class="container faq__list">
+        <div class="faq__item active">
+          <span class="faq__ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="#111" stroke-width="1.3"><path d="M10 30l14-7 14 7-14 7z"/><path d="M14 26c2-4 6-6 10-6s8 2 10 6"/><circle cx="24" cy="16" r="2"/></svg></span>
+          <div class="faq__main">
+            <button class="faq__q">What exactly does Kairo do?<span class="faq__icon"></span></button>
+            <div class="faq__a"><p>Kairo deploys autonomous agents that take over repetitive operations work — triaging requests, updating systems, and running multi-step workflows so your team can focus on higher-value decisions.</p></div>
+          </div>
+        </div>
+        <div class="faq__item">
+          <span class="faq__ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="#111" stroke-width="1.3"><path d="M10 30l14-7 14 7-14 7z"/><path d="M14 26c2-4 6-6 10-6s8 2 10 6"/><circle cx="24" cy="16" r="2"/></svg></span>
+          <div class="faq__main">
+            <button class="faq__q">How fast can we go live?<span class="faq__icon"></span></button>
+            <div class="faq__a"><p>Most teams have their first agent running within days. Bigger rollouts happen in stages, side by side with your existing process so nothing breaks.</p></div>
+          </div>
+        </div>
+        <div class="faq__item">
+          <span class="faq__ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="#111" stroke-width="1.3"><path d="M10 30l14-7 14 7-14 7z"/><path d="M14 26c2-4 6-6 10-6s8 2 10 6"/><circle cx="24" cy="16" r="2"/></svg></span>
+          <div class="faq__main">
+            <button class="faq__q">Will it work with the tools we already use?<span class="faq__icon"></span></button>
+            <div class="faq__a"><p>Yes. Kairo plugs into your current stack through native connectors and a flexible integration layer, so your data flows where it needs to.</p></div>
+          </div>
+        </div>
+        <div class="faq__item">
+          <span class="faq__ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="#111" stroke-width="1.3"><path d="M10 30l14-7 14 7-14 7z"/><path d="M14 26c2-4 6-6 10-6s8 2 10 6"/><circle cx="24" cy="16" r="2"/></svg></span>
+          <div class="faq__main">
+            <button class="faq__q">Do we need engineers to run it?<span class="faq__icon"></span></button>
+            <div class="faq__a"><p>No. The visual studio lets operators build agents themselves, and your developers can extend them with code whenever they want more control.</p></div>
+          </div>
+        </div>
+        <div class="faq__item">
+          <span class="faq__ico" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="#111" stroke-width="1.3"><path d="M10 30l14-7 14 7-14 7z"/><path d="M14 26c2-4 6-6 10-6s8 2 10 6"/><circle cx="24" cy="16" r="2"/></svg></span>
+          <div class="faq__main">
+            <button class="faq__q">What results should we expect?<span class="faq__icon"></span></button>
+            <div class="faq__a"><p>Teams typically see lighter workloads, quicker turnaround, and clear, measurable gains in day-to-day operational efficiency.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ACCESS CTA (dark) ===== -->
+    <section class="sec sec--dark cta" id="waitlist">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <div class="cta__flare" aria-hidden="true"></div>
+      <div class="container cta__inner">
+        <h2 class="cta__text">Kairo takes over the repetitive work, runs your everyday operations, and scales right alongside you — quietly, reliably, around the clock.</h2>
+        <form class="cta__form" id="waitlistForm">
+          <input type="email" placeholder="you@company.com" required aria-label="Email" />
+          <button type="submit" class="btn btn--light btn--lg">Request access
+            <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          </button>
+        </form>
+        <span class="cta__note" id="formNote"></span>
+      </div>
+      <div class="marquee marquee--light marquee--xl" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Request Access</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Request Access</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Request Access</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+          <span>Request Access</span><svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER (dark) ===== -->
+  <footer class="footer sec--dark">
+    <div class="grid-lines" aria-hidden="true"></div>
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <h4>EXPLORE</h4>
+        <a href="#home">Start</a>
+        <a href="#about">Why Kairo</a>
+        <a href="#solutions">Platform</a>
+        <a href="#waitlist">Contact</a>
+        <a href="#waitlist">Access</a>
+      </div>
+      <div class="footer__col">
+        <h4>LIBRARY</h4>
+        <a href="#cases">Results</a>
+        <a href="#">Field Notes</a>
+        <a href="#faq">Questions</a>
+        <a href="#">404</a>
+      </div>
+      <div class="footer__col">
+        <h4>POLICIES</h4>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Notice</a>
+      </div>
+      <div class="footer__col">
+        <h4>REACH</h4>
+        <a href="tel:+14155550192">+1 415 555 0192</a>
+        <a href="#">X / Twitter</a>
+        <a href="#">YouTube</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <a href="#home" class="footer__logo">
+        <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.6 6.3 5.7 11.4 12 12-6.3.6-11.4 5.7-12 12-.6-6.3-5.7-11.4-12-12C6.3 11.4 11.4 6.3 12 0z"/></svg>
+        Kairo<sup>™</sup>
+      </a>
+      <span class="footer__copy">Copyright © Kairo 2026</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
